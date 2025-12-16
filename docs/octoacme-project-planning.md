@@ -15,6 +15,10 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 4. Define Definition of Done (DoD)
 5. Identify dependencies and integration points
 6. Create release plan and milestone map
+7. **QA Lead**: Define testing strategy and test plan for the project
+8. **DevOps Engineer**: Assess infrastructure needs and deployment approach
+9. **UX Designer**: Identify design requirements and user research needs
+10. **Sponsor/Stakeholder**: Review and approve project scope, timeline, and resource allocation
 
 ## Backlog Item Template
 - Title:
@@ -41,3 +45,7 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
 - [ ] Initial test plan / QA approach drafted
+- [ ] Infrastructure and deployment plan reviewed by DevOps Engineer
+- [ ] Design requirements identified and UX research planned (if applicable)
+- [ ] All core team roles assigned and confirmed available
+- [ ] Stakeholder communication plan established

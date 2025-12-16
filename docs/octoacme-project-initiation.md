@@ -18,6 +18,9 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - High-level timeline and key milestones
 - Initial risk list
 - Resource needs (team roles, rough effort estimate)
+- **Sponsor/Stakeholder**: Approval and commitment to support project
+- **UX Designer**: Initial user research or design considerations (if applicable)
+- **DevOps Engineer**: Infrastructure and deployment feasibility assessment (if applicable)
 
 ## Project One-pager Template
 - Project name:
@@ -35,6 +38,9 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - [ ] Decision: Approve to move into planning?
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)
+- [ ] Identify and assign core team roles (PM, PdM, Dev Lead, QA Lead, DevOps Engineer, UX Designer)
+- [ ] Confirm resource availability and commitments from all roles
+- [ ] Schedule kickoff meeting with all stakeholders and core team
 
 ## Decision Gate
 Move to planning when:

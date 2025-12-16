@@ -9,9 +9,17 @@ Maintain a simple table with:
 - Description
 - Impact (High/Med/Low)
 - Likelihood (High/Med/Low)
-- Owner
+- Owner (assign to appropriate role based on risk type)
 - Mitigation plan
 - Status
+
+### Role-Specific Risk Ownership:
+- **QA Lead**: Quality risks, test coverage gaps, defect trends
+- **DevOps Engineer**: Infrastructure risks, deployment issues, security vulnerabilities
+- **UX Designer**: Usability risks, accessibility concerns, design inconsistencies
+- **Product Manager**: Scope risks, feature priority conflicts, market timing
+- **Project Manager**: Schedule risks, resource constraints, dependency delays
+- **Sponsor/Stakeholder**: Business risks, budget overruns, strategic misalignment
 
 ## Risk Lifecycle
 - Identify: during planning and ongoing execution
@@ -38,5 +46,14 @@ Incident Communication
 - Post-incident blameless retrospective scheduled
 
 ## Escalation Paths
-- Team-level -> PM -> Product Lead -> Sponsor
+- Team-level -> PM -> Product Lead -> Sponsor/Stakeholder
 - For security incidents, follow the security incident runbook and notify Security on-call
+- For infrastructure/deployment issues: DevOps Engineer -> Engineering Lead -> Sponsor/Stakeholder
+- For quality issues: QA Lead -> Product Manager -> Sponsor/Stakeholder
+- For design/UX concerns: UX Designer -> Product Manager -> Sponsor/Stakeholder
+
+### Escalation Guidelines:
+- Escalate early when blockers impact timeline or quality
+- Provide context, impact assessment, and proposed solutions
+- Document escalation decisions in the project communication log
+- Sponsor/Stakeholder provides final decision on scope, budget, or timeline trade-offs
