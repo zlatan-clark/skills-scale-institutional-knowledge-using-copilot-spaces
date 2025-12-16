@@ -17,8 +17,10 @@ Applies to all cross-functional projects that deliver product features, services
 - Project Manager (PM): coordinates delivery, schedules, risk, communications.
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
 - Developers: implement features, collaborate on design and testability.
-- QA/Testing: validate quality and acceptance criteria.
-- Stakeholders: provide inputs and approvals.
+- QA Lead: defines testing strategy, validates quality, and provides QA sign-off on releases.
+- DevOps Engineer: builds and maintains CI/CD pipelines, infrastructure, and deployment automation.
+- UX Designer: conducts user research, designs interfaces, and ensures usability and accessibility.
+- Sponsor/Stakeholder: provides strategic direction, funding approval, and decision-making authority.
 
 ## Key Artifacts
 - Project Charter / One-pager
